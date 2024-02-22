@@ -140,33 +140,5 @@ public static char finalLetter( int lengthOfRand,int lengthOfSymbols,char[] engl
         return stringBuilder.toString();
     }
     }
-      /*  Scanner = new Scanner(System.in);
-        String key = "9034";
-        String[] keyArr = key.split("");
-        String estimated = scanner.nextLine();
-        String[] estimatedArr = estimated.split("");
-        int bools = 0;
-        int cows = 0;
-        for(int x = 0;keyArr.length > x ; x++){
-            if(estimatedArr[x].equals(keyArr[x])){
-                bools++;
-            }
-            for(int y = 0; y < estimatedArr.length;y++){
-                if(estimatedArr[y].equals(keyArr[x]) && x != y){
-                    cows++;
-                }
-            }
-        }
-        if(bools == 0 && cows == 0){
-            System.out.println("Grade: None. The secret code is " + key);
-        }
-       else if(bools == 0){
-            System.out.println("Grade: " + cows + " cow(s). The secret code is " + key);
-        } else if (cows == 0) {
-            System.out.println("Grade: " + bools + " bull(s). The secret code is " + key);
-        } else{
-            System.out.println("Grade: " + bools + " bull(s) and " + cows + " cow(s). The secret code is " + key);
-        }*/
-
-
+     
 
